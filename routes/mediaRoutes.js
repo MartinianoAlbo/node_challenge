@@ -9,7 +9,7 @@ router
   //All endpoints here require token
   .use(authenticateToken)
   // Endpoint to get movies
-  .get( '/movies', [ check('title','El titulo es obligatorio').not().isEmpty(), fieldValidator ], getMovies )
+  .get( '/movies', fieldValidator, getMovies )
   // Endpoint to get TV shows
   .get('/tvshows/:showId/episodes/:episodeId', [ check('title','El titulo es obligatorio').not().isEmpty(), fieldValidator ], getShow )
   // Endpoint to add new Movie

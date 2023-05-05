@@ -11,6 +11,15 @@ const getMovies = async (req, res = response) => {
     const movieTitle = titulo.replace(/-/g, ' ');
     const directorName = director ? director.replace(/-/g, ' ') : null;
 
+    // If not exist title parameters then get all movies
+    if (!movieTitle) {
+
+      const movies = await Movie.find();
+      res.status(200)
+      return res.json({ msg:"Todas las peliculas", movies });
+
+    }
+
     // Find the movie for a title
     const movie = await Movie.findOne({ title: movieTitle }).populate('director');
 
