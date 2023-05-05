@@ -28,7 +28,7 @@ It is important to define previously in the **env-cmdrc.json** file the variable
 
 This will return a token that you will use in subsequent requests.
 
-2. **Add a movie**: To add a movie, send a POST request to the URL `http://localhost:3000/api/media/addmovie` with the following JSON object in the body of the request, "director" and "actors" can be null:
+2. **Add a movie**: To add a movie, send a POST request to the URL `http://localhost:3000/api/media/addmovie` with the following JSON object in the body of the request, **director** and **actors** can be **null**:
 
 ```json
 {
