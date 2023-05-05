@@ -56,6 +56,6 @@ This will return a token that you will use in subsequent requests.
 
    `http://localhost:3000/api/media/tvshows/:showId/episodes/:episodeId`
 
-  replacing `:showId` and `:episodeId` with the corresponding values.
+   replacing `:showId` and `:episodeId` with the corresponding values.
 
 Thank you for using API and for you time!
