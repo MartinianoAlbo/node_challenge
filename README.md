@@ -43,10 +43,19 @@ This will return a token that you will use in subsequent requests.
 ```
 
 3. **Fetch movies**: To get a list of movies, send a GET request to the URL ej:
- `http://localhost:3000/api/media/movies?titulo=Relatos-Salvajes&director=Damian-Szifron`
- You can set the `title` and `director` parameters to `null` to get all movies.
 
-4. **Get a TV show episode**: To get a specific episode of a TV show, send a GET request to the URL `http://localhost:3000/api/media/tvshows/:showId/episodes/:episodeId`,
+ `http://localhost:3000/api/media/movies?titulo=Relatos-Salvajes&director=Damian-Szifron`
+
+ You can set the **title** and **director** parameters to **null** to get **all** movies ej:
+
+`http://localhost:3000/api/media/movies?titulo=&director=`
+
+ And if the **director** parameter is sent, it also looks for all the films of that director.
+
+4. **Get a TV show episode**: To get a specific episode of a TV show, send a GET request to the URL
+
+ `http://localhost:3000/api/media/tvshows/:showId/episodes/:episodeId`
+
 replacing `:showId` and `:episodeId` with the corresponding values.
 
 Thank you for using API and for you time!
