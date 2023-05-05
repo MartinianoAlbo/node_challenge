@@ -7,12 +7,12 @@ This project was developed with a lot of effort and dedication.
 1. Install the project dependencies by running the `npm install` command.
 2. Make a copy of the `env-example` file and rename it to `.env-cmdrc.json`.
 
-`cp env-example .env-cmdrc.json` 
+  `cp env-example .env-cmdrc.json` 
 
 3. For testing, we recommend using **POSTMAN**.
 
 ### To start the api, the following commands
-`npm run local`
+  `npm run local`
 
 It is important to define previously in the **env-cmdrc.json** file the variables such as the **PORT and the SECRET KEYS**
 
