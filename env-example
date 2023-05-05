@@ -1,0 +1,17 @@
+{
+  "LOCAL": {
+    "DB_PORT": 4000,
+    "DB_CONN": "mongodb+srv://roco1234:roco1493@cluster0.rq2ag.mongodb.net/media_club?retryWrites=true&w=majority",
+    "API_PORT": 3000,
+    "JWT_SECRET":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkNoYWxsZW5nZSIsImlhdCI6MTUxNjIzOTAyMn0.-rhHRo5EvvkpIA825Fng1y753RXyp6nPoZYJ7_VtkP0",
+    "JWT_SECRET_REFRESH":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkNoYWxsZW5nZV9SZWZyZXNoIiwiaWF0IjoxNTE2MjM5MDIyfQ.ZsSRTOqVKiNRGkG-oOP-X9FbO3GDtT-tlbFfP2zHayk",
+    "JWT_EXPIRES_IN":"20m"
+  },
+  "DEVELOP": {
+    "PORT": "Thanks",
+    "ENV2": "For All"
+  },
+  "PROD": {
+    "PORT": ""
+  }
+}
