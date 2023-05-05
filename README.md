@@ -48,9 +48,9 @@ This will return a token that you will use in subsequent requests.
 
    You can set the **title** and **director** parameters to **null** to get **all** movies ej:
 
-  `http://localhost:3000/api/media/movies?titulo=&director=`
+    `http://localhost:3000/api/media/movies?titulo=&director=`
 
-   And if the **director** parameter is sent, it also looks for all the films of that director.
+     And if the **director** parameter is sent, it also looks for all the films of that director.
 
 4. **Get a TV show episode**: To get a specific episode of a TV show, send a GET request to the URL
 
