@@ -11,7 +11,7 @@ This project was developed with a lot of effort and dedication.
 
 3. For testing, we recommend using POSTMAN.
 
-## To start the api, the following commands
+### To start the api, the following commands
 `npm run local`
 
 It is important to define previously in the env-cmdrc.json file the variables such as the PORT and the SECRET KEYS
