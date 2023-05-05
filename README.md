@@ -59,6 +59,6 @@ This will return a token that you will use in subsequent requests.
    replacing `:showId` and `:episodeId` with the corresponding values.
 
 
-##Thanks!
+#Thanks!
 
 Thank you for using API and for you time!
