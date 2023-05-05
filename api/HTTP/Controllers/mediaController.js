@@ -35,7 +35,7 @@ const getMovies = async (req, res = response) => {
     }
 
     // return of movie and director movies (if it exists)
-    res.json({ movie: "movie", moviesByDirector });
+    res.json({ movie, moviesByDirector });
 
   } catch (error) {
     // errors
